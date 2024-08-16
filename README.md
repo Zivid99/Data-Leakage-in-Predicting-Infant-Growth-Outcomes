@@ -1,0 +1,2 @@
+# Data-Leakage-in-Predicting-Infant-Growth-Outcomes
+Predictive modeling using machine learning (ML) holds promise for identifying and managing the developmental risks associated with Small-for-Gestational-Age (SGA) infants, defined by birth weights below the 10th centile. However, the integrity of these models is often compromised by data leakage, which can significantly distort validation outcomes.
