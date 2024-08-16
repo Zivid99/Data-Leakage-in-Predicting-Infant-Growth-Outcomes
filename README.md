@@ -7,8 +7,11 @@ Please note that specific results cannot be displayed, but our findings raise cr
 
 # Coding:
 **File**: dataleakage_infantsgrowthoutcome.ipynb
+
 **input**: df_tri2_12w28w_drop_death_train_bw.csv
+
 **output**: /evaluation/...csv
+
 **Description**:
 This Jupyter Notebook provides an in-depth exploration of data leakage issues within the context of a specific dataset. The notebook presents various experimental designs to illustrate how different approaches can lead to data leakage, which may compromise the validity of machine learning models. The experiments cover several critical aspects, including:
 
