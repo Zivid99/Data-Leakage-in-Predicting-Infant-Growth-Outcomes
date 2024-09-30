@@ -15,12 +15,12 @@ Please note that specific results cannot be displayed, but our findings raise cr
 **Description**:
 This Jupyter Notebook provides an in-depth exploration of data leakage issues within the context of a specific dataset. The notebook presents various experimental designs to illustrate how different approaches can lead to data leakage, which may compromise the validity of machine learning models. The experiments cover several critical aspects, including:
 
-- Resampling: Examining the impact of oversampling or undersampling on data leakage.
-- Imputation: Investigating how different methods of handling missing data can introduce leakage.
-- Normalization: Assessing the effect of applying normalization techniques on both the training and testing sets.
-- Feature Selection: Analyzing the risks of selecting features based on the entire dataset instead of solely the training set.
-- Duplicates in Datasets: Identifying the presence and consequences of duplicate records within the data.
-- Illegitimate Features: Exploring how the inclusion of features that are not legitimate can skew model performance.
-- Non-Independent Training and Testing Sets: Highlighting the dangers of non-independence between the training and testing sets, which can lead to overly optimistic results.
+- i. Improper Resampling Techniques: Examining the impact of oversampling or undersampling on data leakage.
+- ii.	Inappropriate Imputation Process: Investigating how different methods of handling missing data can introduce leakage.
+- iii. Incorrect Data Normalization: Assessing the effect of applying normalization techniques on both the training and testing sets.
+- iv.	Ineffective Feature Selection: Analyzing the risks of selecting features based on the entire dataset instead of solely the training set.
+- v. Cross-Contamination Between Training and Test Sets: Identifying the presence and consequences of duplicate records within the data.
+- vi.	Use of Illegitimate Features: Exploring how the inclusion of features that are not legitimate can skew model performance.
+- vii. Violation Of Independent and Identically Distributed (I.I.D) Assumption: Highlighting the dangers of non-independence between the training and testing sets, which can lead to overly optimistic results.
 
 The goal of this notebook is to provide a clear understanding of the subtle and often overlooked ways in which data leakage can occur, emphasizing the importance of careful experimental design and data management in machine learning applications.
